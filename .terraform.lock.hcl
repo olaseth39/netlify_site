@@ -5,6 +5,7 @@ provider "registry.terraform.io/netlify/netlify" {
   version = "0.2.3"
   hashes = [
     "h1:S0UtzDw8LEnlD9GF2TqhhELGwbIM/zy4nmz3AmSk2hs=",
+    "h1:bXC9Jq6cVhIeaKVTQwSE39m4YxtWWqsfxKkIwEHWihE=",
     "zh:165b04a03d17f68a54fddcefbfdc90ee516949ab85559340c2d504054af93210",
     "zh:24f32a180aeb8212fef1ffe12b6ec27f1ee26548a63b715140e85143cdccf13e",
     "zh:2d4b8ede5e624e507ec87037099c52a8d202422d7d893462e7cd31a409894deb",
