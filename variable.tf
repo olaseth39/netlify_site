@@ -10,3 +10,10 @@ variable "site_name" {
   type        = string
   default     = "terraformnetlifysite"  # Default name for the site, can be overridden
 }
+
+
+variable "team_slug" {
+  description = "Name of the team managing the site"
+  type        = string
+  default     = "olaseth39"  # Default name for the team, can be overridden
+}
