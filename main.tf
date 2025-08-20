@@ -21,6 +21,7 @@ provider "netlify" {
 
 data "netlify_site" "example" {
   name = var.site_name
+  team_slug = var.team_slug
 }
 
 
