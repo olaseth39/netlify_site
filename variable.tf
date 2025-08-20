@@ -8,5 +8,5 @@ variable "netlify_token" {
 variable "site_name" {
   description = "Name of the site managed by Terraform"
   type        = string
-  default     = "my-terraform-site"  # Default name for the site, can be overridden
+  default     = "terraformnetlifysite"  # Default name for the site, can be overridden
 }

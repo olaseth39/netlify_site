@@ -25,9 +25,9 @@ data "netlify_site" "example" {
 
 
 # deployment
-resource "netlify_deploy" "example" {
-  site_id    = data.netlify_site.example.id
-  file       = "${path.module}/site.zip"    # upload the zip folder
-  draft      = false
-  functions  = null
-}
+# resource "netlify_deploy" "example" {
+#   site_id    = data.netlify_site.example.id
+#   file       = "${path.module}/site.zip"    # upload the zip folder
+#   draft      = false
+#   functions  = null
+# }
